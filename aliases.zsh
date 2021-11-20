@@ -3,6 +3,11 @@ alias va="vim ~/.dotfiles/aliases.zsh"
 alias vp="vim ~/.dotfiles/packages.zsh"
 alias vf="vim ~/.dotfiles/functions.zsh"
 alias vt="vim ~/.dotfiles/themes/cswenberg.zsh-theme"
+alias zsrc="source ~/.zshrc"
+
+# System
+alias lsa="ls -a"
+alias rmdir="rm -rf"
 
 # Git
 alias gs="git status"
@@ -18,6 +23,8 @@ alias gck="git checkout"
 alias gcb="git checkout -b"
 alias gr="git rebase"
 alias grm="git rebase main"
+alias gm="git mv"
+alias gsh="git stash"
 
 # Dapp tools
 alias db="dapp build"
