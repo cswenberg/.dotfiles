@@ -1,0 +1,10 @@
+# Web
+alias pgstart="brew services start postgres"
+alias pgstop="brew services stop postgres"
+alias dev="blitz dev"
+alias mg="blitz prisma migrate"
+alias gen="blitz codegen"
+alias seed="blitz db seed"
+alias restart="dropdb station && createdb station && mg deploy && gen"
+alias nb="npm run build"
+alias wipe="blitz db seed -f db/wipe.ts -e development"
