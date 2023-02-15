@@ -1,5 +1,5 @@
 # cswenberg.zsh-theme
 
-PROMPT='%{$fg[cyan]%}%c %{$fg_bold[green]%}»%{$reset_color%} '
-RPROMPT='%{$fg[yellow]%}$(git_current_branch)%{$reset_color%}'
+PROMPT='%{$FG[135]%}%c %{$FG[208]%}»%{$reset_color%} '
+RPROMPT='%{$FG[008]%}$(git_current_branch)%{$reset_color%}'
 
