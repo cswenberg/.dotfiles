@@ -1,5 +1,6 @@
 ### ALIASES
 alias ls="ls -F"
+alias vz="vim ~/.zshrc"
 alias va="vim ~/.dotfiles/core-aliases.zsh"
 alias vap="vim ~/.dotfiles/protocol-aliases.zsh"
 alias vaw="vim ~/.dotfiles/web-aliases.zsh"
